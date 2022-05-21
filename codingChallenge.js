@@ -68,3 +68,15 @@ const isEven= n =>n%2===0;
 console.log(isEven(8));
 console.log(isEven(23));
 console.log(isEven(514));
+
+
+
+// Numeric Seperators
+
+const diameter=287_460_000_000;
+console.log(diameter);
+const priceCents =345_99;
+console.log(priceCents);
+
+const transferFee1=15_00;
+const transferFee2=1_500;

@@ -80,3 +80,26 @@ console.log(priceCents);
 
 const transferFee1=15_00;
 const transferFee2=1_500;
+
+
+//Working with BigInt
+
+console.log(2**53-1);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(2**53+1);
+
+console.log(1000n+1000n);
+console.log(15645678612324864651n*10000000n);
+
+const huge=2232535123154556456n;
+const num=23;
+console.log(huge+BigInt(num));
+
+console.log(20n>15);
+console.log(20n === 20);
+console.log(typeof 20n);
+
+//Divisions
+console.log(10n / 3n);
+console.log(10/3)
+
